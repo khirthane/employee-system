@@ -1,0 +1,50 @@
+@import 'utils/styles/color';
+
+.app-container {
+    display: flex;
+}
+
+.side-bar {
+    flex: 1;
+    background: $blue;
+    height: 100vh;
+}
+
+.page-container {
+    flex: 4;
+}
+
+.main-container {
+    padding: 1.5em;
+}
+
+.header {
+    background: $white;
+    border: 1px solid $light-grey;
+    height: 55px;
+    padding: 1em 1.5em;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.logo {
+    padding: 1em;
+    text-align: center;
+}
+
+.nav-content {
+    .nav-link {
+        list-style-type: none;
+        padding: 1.2em 1.5em;
+        cursor: pointer;
+        color: $white !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+    
+        &:hover {
+            background: $blue-hover;
+            color: $white;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+[
+    {
+        "userId": "rirani",
+        "jobTitleName": "Developer",
+        "firstName": "Romin",
+        "lastName": "Irani",
+        "preferredFullName": "Romin Irani",
+        "dataofBirth": "21/07/1989",
+        "position": "Engineering Manager",
+        "subOrdinates": 10,
+        "profile": "profile1.png"
+    },
+    {
+        "userId": "nirani",
+        "jobTitleName": "Developer",
+        "firstName": "Neil",
+        "lastName": "Irani",
+        "preferredFullName": "Neil Irani",
+        "dataofBirth": "05/04/1993",
+        "position": "Quality Manager",
+        "subOrdinates": 5,
+        "profile": "profile2.png"
+    },
+    {
+        "userId": "tomHanks",
+        "jobTitleName": "Program Directory",
+        "firstName": "Tom",
+        "lastName": "Hanks",
+        "preferredFullName": "Tom Hanks",
+        "dataofBirth": "02/03/1980",
+        "position": "Director",
+        "subOrdinates": 25,
+        "profile": "profile3.png"
+    },
+    {
+        "userId": "james23",
+        "jobTitleName": "Developer",
+        "firstName": "James",
+        "lastName": "Vasanth",
+        "preferredFullName": "James Vasanth",
+        "dataofBirth": "23/03/1988",
+        "position": "Senior Software Developer",
+        "subOrdinates": 0,
+        "profile": "profile4.png"
+    },
+    {
+        "userId": "ram12",
+        "jobTitleName": "Developer",
+        "firstName": "Ram",
+        "lastName": "Bob",
+        "preferredFullName": "Ram Bob",
+        "dataofBirth": "18/08/1993",
+        "position": "Software Developer",
+        "subOrdinates": 0,
+        "profile": "profile5.png"
+    },
+    {
+        "userId": "shyam76",
+        "jobTitleName": "TechnicalArchitect",
+        "firstName": "Shyam",
+        "lastName": "jaiswal",
+        "preferredFullName": "Shyam Jaiswal",
+        "dataofBirth": "02/03/1980",
+        "position": "Technical Architect",
+        "subOrdinates": 0,
+        "profile": "profile6.png"
+    },
+    {
+        "userId": "david998",
+        "jobTitleName": "Program Director",
+        "firstName": "David",
+        "lastName": "Tom",
+        "preferredFullName": "David Hanks",
+        "dataofBirth": "27/03/1975",
+        "position": "Program Director",
+        "subOrdinates": 100,
+        "profile": "profile7.png"
+    }
+]

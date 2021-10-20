@@ -1,0 +1,12 @@
+{
+    "dashboard": "Dashboard",
+    "employees": "Employees",
+    "employeesList": "Employees List",
+    "tableView": "Table View",
+    "cardView": "Card View",
+    "employeeName": "Employee Name",
+    "employeeID": "Employee ID",
+    "dataofBirth": "Data of Birth",
+    "position": "Position",
+    "noofSubOrdinates": "No of SubOrdinates"
+}

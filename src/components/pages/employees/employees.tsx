@@ -1,23 +1,14 @@
-import { useEffect, useState } from 'react';
-import { fetchEmployeeList } from 'stores/api';
-import { EmployeesList } from 'utils/interfaces';
+import { useState, useContext } from 'react';
 import CardLayout from './cardLayout/cardLayout';
 import TableLayout from './tableLayout/tableLayout';
 import intl from 'utils/locales/en.json';
+import { EmployeeContext } from 'stores/context/employeeContext';
 import './employees.scss';
 
 const Employees = (): JSX.Element => {
 
-    const [employeeList, setEmployeeList] = useState<EmployeesList[]>([]);
     const [isCardView, setIsCardView] = useState(false);
-
-    useEffect(() => {
-        async function fetchData() {
-            const results = await fetchEmployeeList();
-            setEmployeeList(results);
-        }
-        fetchData();
-    }, []);
+    const { employeesData } = useContext(EmployeeContext);
 
     return (
         <>
@@ -33,9 +24,9 @@ const Employees = (): JSX.Element => {
                 </div>
             </div>
 
-            {isCardView
-                ? <CardLayout list={employeeList} />
-                : <TableLayout list={employeeList} />
+            {employeesData && isCardView
+                ? <CardLayout list={employeesData} />
+                : <TableLayout list={employeesData} />
             }
         </>
     );

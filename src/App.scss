@@ -45,24 +45,26 @@ p {
 }
 
 // Grid Table Styles
-.rgt-container, .rgt-cell, .rgt-cell-header-inner, .rgt-footer,
-.rgt-header-container, .rgt-search-input, .rgt-cell-header-virtual-col {
-    background: none;
-}
+.table-layout {
+    .rgt-container, .rgt-cell, .rgt-cell-header-inner, .rgt-footer,
+    .rgt-header-container, .rgt-search-input, .rgt-cell-header-virtual-col {
+        background: none;
+    }
 
-.rgt-cell {
-    border-bottom: 1px solid $blue-line;
-}
+    .rgt-cell {
+        border-bottom: 1px solid $blue-line;
+    }
 
-.rgt-cell-header {
-    border-bottom: 1px solid $blue-line;
-    color: $blue-link
-}
+    .rgt-cell-header {
+        border-bottom: 1px solid $blue-line;
+        color: $blue-link
+    }
 
-.rgt-wrapper {
-    border: none;
-}
-.rgt-search-label {
-    font-size: 14px;
-    
+    .rgt-wrapper {
+        border: none;
+    }
+    .rgt-search-label {
+        font-size: 14px;
+        
+    }
 }

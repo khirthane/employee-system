@@ -48,7 +48,7 @@ const TableLayout = ({ list }): JSX.Element => {
 
     return (
         <div className="table-layout">
-            <GridTable columns={columns} rows={list} />
+            <GridTable columns={columns} rows={list} pageSize="8" />
         </div>
     )
 }

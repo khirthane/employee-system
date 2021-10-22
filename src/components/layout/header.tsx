@@ -11,7 +11,7 @@ const Header = ({ changeLocale }): JSX.Element => {
     const location = useLocation();
 
     useEffect(() => {
-        setPageName(location.pathname === '/' ? t('dashboard') : location.pathname.substring(1));
+        setPageName(location.pathname === '/' ? t('dashboard') : t(location.pathname.substring(1)));
     }, [location])
 
     const changeLocation = (e) => {

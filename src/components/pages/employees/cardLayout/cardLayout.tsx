@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ProfileCard } from 'components/features';
-import { EmployeesList } from 'utils/interfaces'
+import { EmployeesList } from '@interfaces'
 import './cardLayout.scss';
 
 const CardLayout = ({ list }): JSX.Element => {

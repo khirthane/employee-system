@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from 'react';
-import { EmployeesList } from 'utils/interfaces';
+import { EmployeesList } from '@interfaces';
 import { useEffect, useState, createContext } from 'react';
 import { fetchEmployeeList } from 'stores/api';
 

@@ -6,6 +6,7 @@ import './layout.scss'
 
 const Header = ({ changeLocale }): JSX.Element => {
 
+    const defaultLocale = sessionStorage.getItem('locale');
     const [pageName, setPageName] = useState(null);
     const location = useLocation();
 
@@ -14,6 +15,7 @@ const Header = ({ changeLocale }): JSX.Element => {
     }, [location])
 
     const changeLocation = (e) => {
+        sessionStorage.setItem('locale', e.target.value);
         changeLocale(e.target.value);
     }
 
@@ -21,7 +23,7 @@ const Header = ({ changeLocale }): JSX.Element => {
         <header className="header">
             <span className="header-title">{pageName}</span>
             <div className="locale-select">
-                <select className="form-select change-locale" onChange={changeLocation}>
+                <select className="form-select change-locale" value={defaultLocale} onChange={changeLocation}>
                     <option value={LOCALES.ENGLISH}>English</option>
                     <option value={LOCALES.GERMAN}>German</option>
                     <option value={LOCALES.FRENCH}>French</option>

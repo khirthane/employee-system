@@ -5,7 +5,7 @@
         "firstName": "Romin",
         "lastName": "Irani",
         "preferredFullName": "Romin Irani",
-        "dataofBirth": "21/07/1989",
+        "dateofBirth": "21/07/1989",
         "position": "Engineering Manager",
         "subOrdinates": 10,
         "profile": "profile1.png"
@@ -16,7 +16,7 @@
         "firstName": "Neil",
         "lastName": "Irani",
         "preferredFullName": "Neil Irani",
-        "dataofBirth": "05/04/1993",
+        "dateofBirth": "05/04/1993",
         "position": "Quality Manager",
         "subOrdinates": 5,
         "profile": "profile2.png"
@@ -27,7 +27,7 @@
         "firstName": "Tom",
         "lastName": "Hanks",
         "preferredFullName": "Tom Hanks",
-        "dataofBirth": "02/03/1980",
+        "dateofBirth": "02/03/1980",
         "position": "Director",
         "subOrdinates": 25,
         "profile": "profile3.png"
@@ -38,7 +38,7 @@
         "firstName": "James",
         "lastName": "Vasanth",
         "preferredFullName": "James Vasanth",
-        "dataofBirth": "23/03/1988",
+        "dateofBirth": "23/03/1988",
         "position": "Senior Software Developer",
         "subOrdinates": 0,
         "profile": "profile4.png"
@@ -49,7 +49,7 @@
         "firstName": "Ram",
         "lastName": "Bob",
         "preferredFullName": "Ram Bob",
-        "dataofBirth": "18/08/1993",
+        "dateofBirth": "18/08/1993",
         "position": "Software Developer",
         "subOrdinates": 0,
         "profile": "profile5.png"
@@ -60,7 +60,7 @@
         "firstName": "Shyam",
         "lastName": "jaiswal",
         "preferredFullName": "Shyam Jaiswal",
-        "dataofBirth": "02/03/1980",
+        "dateofBirth": "02/03/1980",
         "position": "Technical Architect",
         "subOrdinates": 0,
         "profile": "profile6.png"
@@ -71,7 +71,7 @@
         "firstName": "David",
         "lastName": "Tom",
         "preferredFullName": "David Hanks",
-        "dataofBirth": "27/03/1975",
+        "dateofBirth": "27/03/1975",
         "position": "Program Director",
         "subOrdinates": 100,
         "profile": "profile7.png"
@@ -82,7 +82,7 @@
         "firstName": "Mac",
         "lastName": "Macklor",
         "preferredFullName": "Mac Macklor",
-        "dataofBirth": "01/02/1990",
+        "dateofBirth": "01/02/1990",
         "position": "Engineering Manager",
         "subOrdinates": 5,
         "profile": "profile2.png"
@@ -93,7 +93,7 @@
         "firstName": "Tom",
         "lastName": "Hanks",
         "preferredFullName": "Tom Hanks",
-        "dataofBirth": "02/03/1980",
+        "dateofBirth": "02/03/1980",
         "position": "Director",
         "subOrdinates": 25,
         "profile": "profile3.png"
@@ -104,7 +104,7 @@
         "firstName": "James",
         "lastName": "Bond",
         "preferredFullName": "James Bond",
-        "dataofBirth": "23/03/1990",
+        "dateofBirth": "23/03/1990",
         "position": "Software Developer",
         "subOrdinates": 0,
         "profile": "profile4.png"
@@ -115,7 +115,7 @@
         "firstName": "Ram",
         "lastName": "Lila",
         "preferredFullName": "Ram Lila",
-        "dataofBirth": "18/08/1993",
+        "dateofBirth": "18/08/1993",
         "position": "Software Developer",
         "subOrdinates": 0,
         "profile": "profile5.png"

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Logo from './logo';
-import intl from 'utils/locales/en.json'
+import t from 'utils/i18nProvider/translate';
 import './layout.scss'
 
 const Navbar = (): JSX.Element => {
@@ -9,8 +9,8 @@ const Navbar = (): JSX.Element => {
             <Logo />
             <nav className="nav-container">
                 <div className="nav-content">
-                    <Link to="/" className="nav-link" id="dashboard-link">{intl.dashboard}</Link>
-                    <Link to="/employees" className="nav-link" id="employees-link">{intl.employees}</Link>
+                    <Link to="/" className="nav-link" id="dashboard-link">{t('dashboard')}</Link>
+                    <Link to="/employees" className="nav-link" id="employees-link">{t('employees')}</Link>
                 </div>
             </nav>
         </aside>

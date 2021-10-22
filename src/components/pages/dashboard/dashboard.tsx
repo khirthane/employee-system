@@ -1,15 +1,16 @@
 
-import Card from 'components/features/card/card';
+import { Card } from 'components/features';
+import t from 'utils/i18nProvider/translate';
 import './dashboard.scss'
 
 const Dashboard = (): JSX.Element => {
 
     return (
         <div className="card-layout">
-            <Card title="Protection Status"><p>Detials</p></Card>
-            <Card title="Vulnerable Machines"><p>Detials</p></Card>
-            <Card title="Patch Installation Status"><p>Detials</p></Card>
-            <Card title="Cyber Protection"><p>Detials</p></Card>
+            <Card title={t('protectionStatus')}><p>{t('details')}</p></Card>
+            <Card title={t('vulnerableMachine')}><p>{t('details')}</p></Card>
+            <Card title={t('patchInstallationStatus')}><p>{t('details')}</p></Card>
+            <Card title={t('cyberProtection')}><p>{t('details')}</p></Card>
         </div>
     )
 };

@@ -1,5 +1,5 @@
 import GridTable from '@nadavshaar/react-grid-table';
-import intl from 'utils/locales/en.json';
+import t from "utils/i18nProvider/translate";
 import './tableLayout.scss';
 
 const TableLayout = ({ list }): JSX.Element => {
@@ -21,34 +21,34 @@ const TableLayout = ({ list }): JSX.Element => {
         {
             id: 1,
             field: 'preferredFullName',
-            label: intl.employeeName,
+            label: t('employeeName'),
             cellRenderer: employeeDetails
         },
         {
             id: 2,
             field: 'userId',
-            label: intl.employeeID,
+            label: t('employeeID'),
         },
         {
             id: 3,
-            field: 'dataofBirth',
-            label: intl.dataofBirth,
+            field: 'dateofBirth',
+            label: t('dateofBirth'),
         },
         {
             id: 4,
             field: 'position',
-            label: intl.position,
+            label: t('position'),
         },
         {
             id: 5,
             field: 'subOrdinates',
-            label: intl.noofSubOrdinates,
+            label: t('noofSubOrdinates'),
         }
     ]
 
     return (
         <div className="table-layout">
-            <GridTable columns={columns} rows={list} pageSize="8" />
+            <GridTable columns={columns} rows={list} pageSize={8} />
         </div>
     )
 }

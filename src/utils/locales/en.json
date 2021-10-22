@@ -6,7 +6,7 @@
     "cardView": "Card View",
     "employeeName": "Employee Name",
     "employeeID": "Employee ID",
-    "dataofBirth": "Data of Birth",
+    "dateofBirth": "Data of Birth",
     "position": "Position",
     "noofSubOrdinates": "No of SubOrdinates"
 }

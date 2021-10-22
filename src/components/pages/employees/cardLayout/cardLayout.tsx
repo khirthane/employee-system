@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ProfileCard from 'components/features/profileCard/profileCard';
+import { ProfileCard } from 'components/features';
 import { EmployeesList } from 'utils/interfaces'
 import './cardLayout.scss';
 

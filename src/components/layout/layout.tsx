@@ -10,7 +10,6 @@ const Layout = (): JSX.Element => {
 
     const [locale, setLocale] = useState(LOCALES.ENGLISH);
     const changeLocale = (loc: string) => {
-        console.log(loc);
         setLocale(loc);
     }
 

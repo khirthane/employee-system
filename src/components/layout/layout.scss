@@ -64,7 +64,13 @@
     margin-left: auto;
 
     .change-locale {
-        width: 7em;
+        width: 8em;
         outline: none;
+        font-size: 14px;
+
+        &:focus {
+            border: 1px solid $blue-line;
+            box-shadow: none;
+        }
     }
 }

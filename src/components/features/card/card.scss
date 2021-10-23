@@ -1,4 +1,12 @@
-.card-header {
+@import 'utils/styles/color';
+
+.card {
+    min-height: 10em;
     border: none !important;
-    background: none !important;
+    box-shadow: 0 0 7px -2px $blue-line;
+
+    .card-header {
+        border: none !important;
+        background: none !important;
+    }
 }

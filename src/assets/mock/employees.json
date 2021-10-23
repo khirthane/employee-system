@@ -108,16 +108,5 @@
         "position": "Software Developer",
         "subOrdinates": 0,
         "profile": "profile4.png"
-    },
-    {
-        "userId": "1012453",
-        "jobTitleName": "Developer",
-        "firstName": "Ram",
-        "lastName": "Lila",
-        "preferredFullName": "Ram Lila",
-        "dateofBirth": "18/08/1993",
-        "position": "Software Developer",
-        "subOrdinates": 0,
-        "profile": "profile5.png"
     }
 ]

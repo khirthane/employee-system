@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { BrowserRouter } from 'react-router-dom'
-import { I18nPropvider } from 'utils/i18nProvider';
+import { I18nPropvider, LOCALES } from 'utils/i18nProvider';
 import Header from './header';
 import Navbar from './navbar';
 import AppRoute from './appRoute';
@@ -9,7 +9,7 @@ import './layout.scss';
 const Layout = (): JSX.Element => {
     const defaultLocale = sessionStorage.getItem('locale');
 
-    const [locale, setLocale] = useState(defaultLocale);
+    const [locale, setLocale] = useState(defaultLocale ?? LOCALES.ENGLISH);
 
     const changeLocale = (loc: string) => {
         setLocale(loc);

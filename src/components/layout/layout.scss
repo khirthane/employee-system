@@ -79,3 +79,15 @@
         }
     }
 }
+
+@media (max-width: 992px) {
+    .side-bar {
+        display: none;
+    }
+    .page-container {
+        margin: 0;
+    }
+    .header {
+        width: 100%;
+    }
+}
